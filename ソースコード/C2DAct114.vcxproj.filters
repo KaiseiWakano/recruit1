@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="HLSLファイル">
+      <UniqueIdentifier>{23710da8-0e45-435f-a460-dc190fa0bc91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\00_Windowメイン">
+      <UniqueIdentifier>{8eb98675-abf3-4207-aa37-cea2af2ccb4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_ゲームメイン">
+      <UniqueIdentifier>{e73b16b3-252e-4e47-aa66-356b7ef5cf76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\02_ゲームライブラリ">
+      <UniqueIdentifier>{1c8bf355-7291-4693-b746-073ae4d0316a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\03_DirectX">
+      <UniqueIdentifier>{96e8308b-1aff-4d2f-9e10-adf102638aa6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\resource.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Main.h">
+      <Filter>ソース ファイル\00_Windowメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BackFore.h">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BaseProc.h">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Effect.h">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Enemy.h">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameMain.h">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Map.h">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Playchar.h">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Title.h">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Weapon.h">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Shader.h">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DInput.h">
+      <Filter>ソース ファイル\03_DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MyMath.h">
+      <Filter>ソース ファイル\03_DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\XAudio.h">
+      <Filter>ソース ファイル\03_DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Direct3D.h">
+      <Filter>ソース ファイル\03_DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Sprite.h">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ItemManager.h">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Src\Sprite2D_PS.hlsl">
+      <Filter>HLSLファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\Sprite2D_VS.hlsl">
+      <Filter>HLSLファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Src\Icon1.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Src\Main.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Src\Sprite2D.hlsli">
+      <Filter>HLSLファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>ソース ファイル\00_Windowメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BackFore.cpp">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BaseProc.cpp">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Effect.cpp">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Enemy.cpp">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameMain.cpp">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Map.cpp">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Playchar.cpp">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Title.cpp">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Weapon.cpp">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Shader.cpp">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DInput.cpp">
+      <Filter>ソース ファイル\03_DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MyMath.cpp">
+      <Filter>ソース ファイル\03_DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\XAudio.cpp">
+      <Filter>ソース ファイル\03_DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\File.cpp">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Direct3D.cpp">
+      <Filter>ソース ファイル\03_DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Sprite.cpp">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ItemManager.cpp">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
